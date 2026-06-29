@@ -4,7 +4,7 @@ A responsive clone of the ElevenLabs Sign Up page built using **HTML** and **CSS
 
 ## 🚀 Live Demo
 
-👉 https://100x-assignments-henna.vercel.app
+[🔗 View Live Project](https://100x-assignments-henna.vercel.app)
 
 ## ✨ Features
 
