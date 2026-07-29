@@ -25,7 +25,7 @@ body{
 }
 
 .left .top{
-    margin-left: 2rem;
+    margin-left: 3rem;
 }
 
 .left .top h3{
@@ -41,14 +41,17 @@ body{
 }
 
 .left .top .text{
-    margin-top: 1rem;
-    display: grid;
-    
+    margin-top: 1.5rem;
+    display: flex;
+    flex-direction: column;
+    gap: 10px; 
+    opacity: 0.8;
 }
 
 
 .left .bottom{
-    margin-left: 2rem;
+    margin-left: 3rem;
+    margin-top: 7rem;
 }
 .left .bottom p{
     opacity:0.3;
