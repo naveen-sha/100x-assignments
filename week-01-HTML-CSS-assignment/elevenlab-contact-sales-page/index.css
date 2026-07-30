@@ -1,5 +1,6 @@
 *{
-    margin: 0%;
+    margin: 0;
+    padding: 0;
     box-sizing: border-box;
     
     
@@ -8,6 +9,9 @@
 body{
     font-family: Arial, sans-serif;
     display: flex;
+    min-height:100vh;
+    overflow: hidden;
+    
 
 }
 
@@ -16,12 +20,18 @@ body{
     color: white;
     width: 100%;
     height: 100%;
+     flex: 1;
 }
 
 .right{
-    background-color: aliceblue;
+    
     width: 100%;
     height: 100%;
+    display: block;
+    justify-content: center;
+    align-items: center;
+    margin-left: 4rem;
+     flex: 1;
 }
 
 .left .top{
@@ -29,19 +39,19 @@ body{
 }
 
 .left .top h3{
-    margin-top: 3rem;
+    margin-top: 2rem;
    margin-left: 0.4rem;
     font-size: 1.2rem;
 }
 
 .left .top p{
     font-size: 3rem;
-    margin-top: 4rem;
+    margin-top: 3rem;
 
 }
 
 .left .top .text{
-    margin-top: 1.5rem;
+    margin-top: 1rem;
     display: flex;
     flex-direction: column;
     gap: 10px; 
@@ -51,14 +61,14 @@ body{
 
 .left .bottom{
     margin-left: 3rem;
-    margin-top: 7rem;
+    margin-top: 5rem;
 }
 .left .bottom p{
     opacity:0.3;
     
 }
 .left  .img{
-    margin-top :5rem ;
+    margin-top :4rem;
     width: 100%;
     
 }
@@ -86,6 +96,93 @@ body{
     align-items:center;
     gap:8px;
     margin-top:2rem;
-    font-size:16px;
+    font-size:18px;
     opacity: 0.8;
+}
+
+.right .form-container{
+    display: flex;
+    flex-direction: column;
+
+
+}
+.right .input-group{
+    width: 100%;
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+  
+}
+.right p{
+    margin-top: 10rem;
+    font-size: 30px;
+    margin-left: 1rem;
+    margin-bottom: 3px;
+
+   
+}
+
+.right span{
+    opacity: 0.6;
+    margin-left: 1rem;
+    
+    
+    
+}
+
+.right input{
+     border: 1px solid #d9d9d9;
+    border-radius: 14px;
+    padding: 16px;
+    outline: none;
+    margin-right: 4.5rem;
+} 
+.right input:focus{
+    border: 1px solid #000;
+}
+
+     
+      
+     
+
+.right button{
+    background-color: black;
+    color: white;
+    border-radius: 4rem;
+    height: 2rem;
+    width: 4rem;
+    border: none;
+    margin-top: 2rem;
+    margin-left: 1rem;
+    cursor: pointer;
+}
+.right .footer{
+    display: flex;
+    gap: 2rem;
+    justify-content: space-between;
+    align-items: center;
+
+    
+}
+
+
+.right .progress{
+    display:flex;
+    gap:8px;
+    align-items:center;
+    margin-right: 6rem;
+    margin-top: 3rem;
+}
+.right .active{
+    background-color: black;
+    width: 70px;
+    height: 4px;
+    border-radius:999px;
+    
+}
+.right .line{
+    width:70px;
+    height:4px;
+    background:#d9d9d9;
+    border-radius:999px;
 }
